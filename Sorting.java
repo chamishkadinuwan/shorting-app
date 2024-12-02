@@ -76,6 +76,7 @@ public class Sorting {
         array[high] = temp;
         return i + 1;
     }
+
     public void heapSort(double[] array) {
         int n = array.length;
         for (int i = n / 2 - 1; i >= 0; i--) {
@@ -106,6 +107,5 @@ public class Sorting {
     }
 
 }
-
 
 

@@ -2,17 +2,7 @@ import java.util.*;
 
 public class Sorting {
 
-    public void insertionSort(double[] array) {
-        for (int i = 1; i < array.length; i++) {
-            double key = array[i];
-            int j = i - 1;
-            while (j >= 0 && array[j] > key) {
-                array[j + 1] = array[j];
-                j = j - 1;
-            }
-            array[j + 1] = key;
-        }
-    }
+    
 
     public void shellSort(double[] array) {
         int n = array.length;

@@ -19,7 +19,7 @@ public class AppGUI {
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.setSize(800, 200);
 
-        // Upload Button
+        // Upload Btn
         JButton uploadButton = new JButton("Upload CSV");
         uploadButton.addActionListener(new ActionListener() {
             @Override
